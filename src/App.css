@@ -30,3 +30,38 @@
     transform: rotate(360deg);
   }
 }
+
+.layout {
+    justify-content:center;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.search {
+    margin: 25px;
+}
+
+.filter {
+    margin-top: 50px;
+    justify-content:left;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.filter span, .sort span {
+    font-size: 22px;
+}
+
+.sort {
+    margin-top: -50px;
+    justify-content:right;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.img {
+    width: auto;
+    height: 150px;
+}
